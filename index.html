@@ -11,10 +11,10 @@
   <header id="header">
     <h1 class="site-title">Portfolio</h1>
 
-      <nav id="nav">
+      <nav id="navi">
         <ul class="nav-menu">
          <li><a href="#project">works</a></li>
-         <li><a href="#skill">skills</a></li>
+         <li><a href="#skil">skills</a></li>
          <li><a href="#concept">concept</a></li>
          <li><a href="#about">about</a></li>
         </ul>
@@ -32,6 +32,8 @@
     <div id="mask"></div>
   </header>
 
+  <div id="target-2"></div>
+
   <div class="container">
     <main>
       <!-- <div id="video">
@@ -46,46 +48,50 @@
           <h2 class="sec-title">WORKS</h2>
           <ul class="list">
             <li>
-              <a href="">
-                <img src="">
-                <p class="name">PROJECT_01</p>
+              <a href="https://hayayoshi06.github.io/practice-1/">
+                <img src="img/practice-1.png">
+                <p class="name">PRACTICE-01</p>
               </a>
             </li>
             <li>
-              <a href="">
-                <img src="">
-                <p class="name">PROJECT_02</p>
+              <a href="https://hayayoshi06.github.io/practice-2/">
+                <img src="img/practice-2.png">
+                <p class="name">PRACTICE-02</p>
               </a>
             </li>
             <li>
-              <a href="">
-                <img src="">
-                <p class="name">PROJECT_03</p>
+              <a href="https://hayayoshi06.github.io/practice-3/">
+                <img src="img/practice-3.png">
+                <p class="name">PRACTICE-03</p>
               </a>
             </li>
             <li>
-              <a href="">
-                <img src="">
-                <p class="name">PROJECT_04</p>
+              <a href="https://hayayoshi06.github.io/practice-4/">
+                <img src="img/practice-4.png">
+                <p class="name">PRACTICE-04</p>
               </a>
             </li>
           </ul>
         </div>
       </section>
 
-      <section id="skill">
+      <section id="skil">
         <div class="wrapper">
-          <h2 class="sec-title">SKILLS</h2>
-          <table>
-            <tr>
-              <td class="exsample"><p>HTML<span class="star-rating" data-rate="3.5"></span></p></td>
-              <td class="exsample"><p>HTML<span class="star-rating" data-rate="3.5"></span></p></td>
-            </tr>
-            <tr>
-              <td class="exsanple"><p>HTML<span class="star-rating" data-rate="3.5"></span></p></td>
-              <td class="exsample"><p>HTML<span class="star-rating" data-rate="3.5"></span></p></td>
-            </tr>
-          </table>
+          <h2 class="sec-title">SKILS</h2>
+         <h3>言語</h3>
+         <div class="language">
+          <p><span class="marker">HTML</span></p>
+          <p><span class="marker">CSS</span></p>
+          <p><span class="marker">JavaScript</span></p>
+          <p><span class="marker">PHP</span></p>
+         </div>
+
+         <div class="forte">
+          <ul>
+            <li>レスポンシブが得意です。</li>
+            <li>まだ勉強中の所がありますがアニメーションができます。</li>
+          </ul>
+         </div>
         </div>
       </section>
 
@@ -99,18 +105,26 @@
       <section id="about">
         <div class="wrapper">
           <h2 class="sec-title">PROFILE</h2>
-          <img src="" alt="隼斗写真">
-          <div class="career">
-            <p>自動車関連の製造業で従事後、webデザイナーへ。</p>
-            <p>一つ一つの関わりを大切にし、経験を吸収し活かして制作に携わっていきます</p>
+          <div class="group">
+            <img src="img/hayato.png" alt="隼斗写真">
+            <div class="career"> 
+              <p>自動車関連の製造業で従事後、webデザイナーへ。</p>
+              <p>一つ一つの関わりを大切にし、経験を吸収し活かして制作に携わっていきます</p>
+            </div>
           </div>
         </div>
       </section>
     </main>
 
-    <footer id="footer">
-      <a id="to-top" href="#video"></a>
-    </footer>
+    <svg class="to_top" id="to_top">
+      <use href=#arrow-up></use>
+    </svg>
+
+    <svg style="display: none;">
+      <symbol id="arrow-up" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+      </symbol>
+    </svg>
   </div>
 </body>
 </html>
